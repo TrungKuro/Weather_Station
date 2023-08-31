@@ -78,6 +78,9 @@ Tất cả thông số dữ liệu thời tiết có thể xem trực tiếp tr�
 >
 > |Key|Value|Unit|Mô tả|
 > |---|-----|----|-----|
+> |pm1|"number"|**(μg/m<sup>3</sup>)**|- Mật độ bụi PM1.0
+> |pm2d5|"number"|**(μg/m<sup>3</sup>)**|- Mật độ bụi PM2.5
+> |pm10|"number"|**(μg/m<sup>3</sup>)**|- Mật độ bụi PM10
 > |humi|"number"|**(%RH)**|- Độ ẩm không khí
 > |temp|"number"|**(ºC)**|- Nhiệt độ không khí
 > |pres|"number"|**(Pa)**|- Áp suất
@@ -85,15 +88,16 @@ Tất cả thông số dữ liệu thời tiết có thể xem trực tiếp tr�
 > |presSea|"number"|**(Pa)**|- Áp suất so với mực nước biển
 > |altiSea|"number"|**(m)**|- Độ cao so với mực nước biển
 > |uv|"number"|**(mW/cm<sup>2</sup>)**|- Cường độ UV
-> |pm1|"number"|**(μg/m<sup>3</sup>)**|- Mật độ bụi PM1.0
-> |pm2d5|"number"|**(μg/m<sup>3</sup>)**|- Mật độ bụi PM2.5
-> |pm10|"number"|**(μg/m<sup>3</sup>)**|- Mật độ bụi PM10
+> |time|"string"|**YYYY`-`MM`-`DD`T`HH`:`MM`:`SS`Z`**|- Timestamp
 
 ## Nguồn tài liệu
 
 **<u>Firebase</u>:**
 - Hướng dẫn: [ESP32: Getting Started with Firebase (Realtime Database)](https://randomnerdtutorials.com/esp32-firebase-realtime-database/).
 - Thư viện: [Firebase-ESP-Client](https://github.com/mobizt/Firebase-ESP-Client).
+
+**<u>NTP Client</u>:**
+- Hướng dẫn: [Getting Date and Time with ESP32 on Arduino IDE (NTP Client)](https://randomnerdtutorials.com/esp32-ntp-client-date-time-arduino-ide/).
 
 **<u>OLED</u>:**
 - Hướng dẫn: [Demo 6: How to use Arduino ESP32 to display information on OLED](https://www.iotsharing.com/2017/05/how-to-use-arduino-esp32-to-display-oled.html).
@@ -145,4 +149,8 @@ Tất cả thông số dữ liệu thời tiết có thể xem trực tiếp tr�
     - `RX2` - **GPIO16**.
     - `TX2` - **GPIO17**.
 
+## Video dự án
 
+> `(1)` - Test lần thứ nhất.
+>
+> [Test Weather Station (1)](https://www.youtube.com/watch?v=a2Sgui6cRYk).
